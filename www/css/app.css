@@ -1,0 +1,96 @@
+.full-width {
+  max-width: 1400px;
+}
+
+.footer {
+  background-color: #44aa66;
+  padding: 2rem 4rem;
+  text-align: center;
+  color: #fff;
+}
+.footer i {
+  font-size: 80px;
+}
+
+.footer h4 {
+  color: #fff;
+  font-size: 1em;
+  font-weight: 200;
+  text-transform: uppercase;
+  margin-top: 2.5rem;
+  margin-bottom: 10px;
+}
+.footer p, .footer a {
+  font-weight: 300;
+  font-size: .8em;
+  color: #fff;
+}
+
+@media only screen and (min-width: 40.063em) {
+  .footer .columns:nth-child(n+2) {
+    border-left: 1px solid #b3b3b3;
+    min-height: 280px;
+  }
+}
+.footer-links {
+  list-style-type: none;
+}
+.footer-links li {
+  margin-top: .5em;
+}
+
+.inline-list{
+     display: table;
+     margin: 0 auto;
+     list-style-type: none;
+}
+
+#student_form > div {
+  padding: 0;
+}
+
+.actions {
+  float: right;
+  transition: 0.3s;
+  opacity: 0;
+  margin-bottom: 0;
+}
+
+.student {
+  border: 1px solid #ddd;
+  height: 4rem;
+  padding: .75rem 1.25rem;
+  margin-bottom: -1px;
+  transition: 0.15s;
+}
+.student:first-child a.move-up,
+.student:last-child a.move-down {
+  background-color: #ddd;
+  color: #eee;
+  cursor: not-allowed;
+  /*pointer-events: none;*/
+}
+
+.student:hover .actions {
+  opacity: 1;
+}
+
+.student .input-group {
+  margin-bottom: 0;
+}
+
+.student.promoted {
+  background-color: #FFC656;
+  border-color: #FFA807;
+}
+
+span.student-name {
+  line-height: 40px;
+  padding: 1px;
+}
+
+.student input[name=studentName] {
+  border: 1px solid #ccc;
+  line-height: inherit;
+  padding: 0;
+}
